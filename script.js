@@ -19,6 +19,7 @@ function verificar(){
              if(idade >= 0 && idade < 12){
                 //criança
                 img.setAttribute('src' , 'criançaH.png')
+                
              }else if (idade < 21){
                 //jovem
                 img.setAttribute('src' , 'jovemH.png')
